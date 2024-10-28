@@ -1,0 +1,16 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/Manu/Desktop/facu/T y DD II/LAB/ParteA/Parte_A.vhd
+source_file = 1, C:/Users/Manu/Desktop/facu/T y DD II/LAB/ParteA/Waveform.vwf
+source_file = 1, C:/Users/Manu/Desktop/facu/T y DD II/LAB/ParteA/Parte_A_SIM.vhd
+source_file = 1, C:/Users/Manu/Desktop/facu/T y DD II/LAB/ParteA/Block_A.bdf
+source_file = 1, C:/Users/Manu/Desktop/facu/T y DD II/LAB/ParteA/db/Parte_A.cbx.xml
+source_file = 1, c:/altera/13.0sp1/quartus/libraries/vhdl/ieee/prmtvs_b.vhd
+source_file = 1, c:/altera/13.0sp1/quartus/libraries/vhdl/ieee/prmtvs_p.vhd
+source_file = 1, c:/altera/13.0sp1/quartus/libraries/vhdl/ieee/timing_b.vhd
+source_file = 1, c:/altera/13.0sp1/quartus/libraries/vhdl/ieee/timing_p.vhd
+design_name = Parte_A
+instance = comp, \LED~output\, LED~output, Parte_A, 1
+instance = comp, \SW1~input\, SW1~input, Parte_A, 1
+instance = comp, \SW3~input\, SW3~input, Parte_A, 1
+instance = comp, \SW2~input\, SW2~input, Parte_A, 1
+instance = comp, \LED~0\, LED~0, Parte_A, 1

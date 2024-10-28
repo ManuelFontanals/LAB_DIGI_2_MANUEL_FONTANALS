@@ -1,0 +1,75 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\Manu\Desktop\facu\T y DD II\LAB\ParteA\simulation\modelsim
+Eparte_a
+Z1 w1730151169
+Z2 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z3 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z4 dC:\Users\Manu\Desktop\facu\T y DD II\LAB\ParteA\simulation\modelsim
+Z5 8C:/Users/Manu/Desktop/facu/T y DD II/LAB/ParteA/Parte_A.vhd
+Z6 FC:/Users/Manu/Desktop/facu/T y DD II/LAB/ParteA/Parte_A.vhd
+l0
+L5
+VHzibBOFXe@iRS?0R2SlFe3
+Z7 OV;C;10.1d;51
+31
+Z8 !s108 1730152629.102000
+Z9 !s90 -reportprogress|300|-93|-work|work|C:/Users/Manu/Desktop/facu/T y DD II/LAB/ParteA/Parte_A.vhd|
+Z10 !s107 C:/Users/Manu/Desktop/facu/T y DD II/LAB/ParteA/Parte_A.vhd|
+Z11 o-93 -work work -O0
+Z12 tExplicit 1
+!s100 Y9U8]i2LkF<7VAAYkD78B1
+!i10b 1
+Abehave
+R2
+R3
+DEx4 work 7 parte_a 0 22 HzibBOFXe@iRS?0R2SlFe3
+l18
+L16
+VcdLhDF=NL:A8mY7<P1iK_3
+R7
+31
+R8
+R9
+R10
+R11
+R12
+!s100 i`[JPOKe>LdC=GlYA[cEK2
+!i10b 1
+Eparte_a_sim
+Z13 w1730152021
+R2
+R3
+R4
+Z14 8C:/Users/Manu/Desktop/facu/T y DD II/LAB/ParteA/Parte_A_SIM.vhd
+Z15 FC:/Users/Manu/Desktop/facu/T y DD II/LAB/ParteA/Parte_A_SIM.vhd
+l0
+L6
+VckOoi]]SDN0PORE3K[lUQ2
+!s100 :f82`F?[N[V>3_?hjRGi71
+R7
+31
+!i10b 1
+Z16 !s108 1730152629.180000
+Z17 !s90 -reportprogress|300|-93|-work|work|C:/Users/Manu/Desktop/facu/T y DD II/LAB/ParteA/Parte_A_SIM.vhd|
+Z18 !s107 C:/Users/Manu/Desktop/facu/T y DD II/LAB/ParteA/Parte_A_SIM.vhd|
+R11
+R12
+Abehavior
+R2
+R3
+DEx4 work 11 parte_a_sim 0 22 ckOoi]]SDN0PORE3K[lUQ2
+l43
+L12
+VXZ0z^C2in4H^896m[LY_:1
+!s100 OGG2iFzILJ>4;O5m>Pc7d1
+R7
+31
+!i10b 1
+R16
+R17
+R18
+R11
+R12

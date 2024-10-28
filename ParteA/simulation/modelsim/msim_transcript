@@ -1,0 +1,48 @@
+# Reading C:/altera/13.0sp1/modelsim_ase/tcl/vsim/pref.tcl 
+# do Parte_A_run_msim_gate_vhdl.do 
+# if {[file exists gate_work]} {
+# 	vdel -lib gate_work -all
+# }
+# vlib gate_work
+# vmap work gate_work
+# Copying C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vcom -93 -work work {Parte_A_7_1200mv_85c_slow.vho}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package VITAL_Timing
+# -- Loading package VITAL_Primitives
+# -- Loading package cycloneiii_atom_pack
+# -- Loading package cycloneiii_components
+# -- Compiling entity Parte_A
+# -- Compiling architecture structure of Parte_A
+# 
+# vcom -93 -work work {C:/Users/Manu/Desktop/facu/T y DD II/LAB/ParteA/Parte_A_SIM.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Parte_A_SIM
+# -- Compiling architecture behavior of Parte_A_SIM
+# ** Warning: [4] C:/Users/Manu/Desktop/facu/T y DD II/LAB/ParteA/Parte_A_SIM.vhd(58): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/Manu/Desktop/facu/T y DD II/LAB/ParteA/Parte_A_SIM.vhd(59): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/Manu/Desktop/facu/T y DD II/LAB/ParteA/Parte_A_SIM.vhd(60): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/Manu/Desktop/facu/T y DD II/LAB/ParteA/Parte_A_SIM.vhd(61): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/Manu/Desktop/facu/T y DD II/LAB/ParteA/Parte_A_SIM.vhd(62): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/Manu/Desktop/facu/T y DD II/LAB/ParteA/Parte_A_SIM.vhd(63): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/Manu/Desktop/facu/T y DD II/LAB/ParteA/Parte_A_SIM.vhd(64): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/Manu/Desktop/facu/T y DD II/LAB/ParteA/Parte_A_SIM.vhd(65): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# 
+# vsim -t 1ps +transport_int_delays +transport_path_delays -sdftyp /uut=Parte_A_7_1200mv_85c_vhd_slow.sdo -L altera -L cycloneiii -L gate_work -L work -voptargs="+acc"  Pate_A_SIM
+# vsim +transport_int_delays +transport_path_delays -L altera -L cycloneiii -L gate_work -L work -voptargs=\"+acc\" -sdftyp /uut=Parte_A_7_1200mv_85c_vhd_slow.sdo -t 1ps Pate_A_SIM 
+# ** Error: (vsim-3170) Could not find 'C:/Users/Manu/Desktop/facu/T y DD II/LAB/ParteA/simulation/modelsim/gate_work.Pate_A_SIM'.
+# 
+# Error loading design
+# Error: Error loading design 
+#        Pausing macro execution 
+# MACRO ./Parte_A_run_msim_gate_vhdl.do PAUSED at line 12
