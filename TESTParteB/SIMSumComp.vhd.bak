@@ -1,0 +1,36 @@
+library ieee;
+use ieee. std_logic_1164.all;
+use ieee. std_logic_arith.all;
+use ieee. std_logic_unsigned.all;
+
+
+entity SIMSumComp is
+
+end SIMSumComp;
+
+architecture behave of SIMSumComp is
+
+	component SumadorCompleto
+	 -- DEFINE SEÑALES DE ENTRADA Y SALIDA SUMADOR
+	PORT 
+	( 	
+		in_a: in std_logic;
+		in_b: in std_logic;
+		in_cin: in std_logic;
+		clk: in std_logic;
+		o_res: out std_logic;
+		o_cout: out std_logic
+	);
+	end component;
+
+	-- def val ini
+	-- in
+	signal in_a: in std_logic := '0';
+	signal in_b: in std_logic;
+	signal in_cin: in std_logic;
+	signal clk: in std_logic;
+	-- out
+	signal o_res: out std_logic;
+	signal o_cout: out std_logic
+	
+end;

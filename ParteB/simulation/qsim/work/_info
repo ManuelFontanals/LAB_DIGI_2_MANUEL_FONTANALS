@@ -1,0 +1,85 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\Manu\Desktop\facu\T y DD II\LAB\ParteB\simulation\qsim
+vRestadorCompleto
+Z1 II;f15eOHTKTE:6m9cF><81
+Z2 V=jH0BbL_^k>SfJmN8GKV81
+Z3 dC:\Users\Manu\Desktop\facu\T y DD II\LAB\ParteB\simulation\qsim
+Z4 w1730499747
+Z5 8RestadorCompleto.vo
+Z6 FRestadorCompleto.vo
+L0 31
+Z7 OV;L;10.1d;51
+r1
+31
+Z8 o-work work -O0
+Z9 n@restador@completo
+!i10b 1
+Z10 !s100 nhd_[RZgfndTePLV>bS?R3
+!s85 0
+Z11 !s108 1730499748.529000
+Z12 !s107 RestadorCompleto.vo|
+Z13 !s90 -work|work|RestadorCompleto.vo|
+!s101 -O0
+vRestadorCompleto_vlg_check_tst
+!i10b 1
+!s100 U;QCf=i1MWU?;S6WF[Z?i3
+I3a]nCmR>^63cc__c?Y6EB2
+V1b2f`hLf[ZT]SeGAC7Bzg3
+R3
+Z14 w1730499746
+Z15 8RestadorCompleto.vt
+Z16 FRestadorCompleto.vt
+L0 63
+R7
+r1
+!s85 0
+31
+Z17 !s108 1730499748.653000
+Z18 !s107 RestadorCompleto.vt|
+Z19 !s90 -work|work|RestadorCompleto.vt|
+!s101 -O0
+R8
+n@restador@completo_vlg_check_tst
+vRestadorCompleto_vlg_sample_tst
+!i10b 1
+!s100 l>423mGJ8f`5?=j]VZ`1V1
+ImoiPLHLcG<GZDa@<hj3T]3
+VTl<6A:Jklc;ABI@i<Rb3A1
+R3
+R14
+R15
+R16
+L0 29
+R7
+r1
+!s85 0
+31
+R17
+R18
+R19
+!s101 -O0
+R8
+n@restador@completo_vlg_sample_tst
+vRestadorCompleto_vlg_vec_tst
+!i10b 1
+!s100 QO9o]22HJ_PjdnU3O8^:n2
+I@`W^DkU`BAEcEi0W;l<hD0
+V5YGk0RY9ZLKG]:HH476Y_1
+R3
+R14
+R15
+R16
+L0 185
+R7
+r1
+!s85 0
+31
+R17
+R18
+R19
+!s101 -O0
+R8
+n@restador@completo_vlg_vec_tst
