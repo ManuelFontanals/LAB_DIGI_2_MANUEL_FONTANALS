@@ -21,7 +21,7 @@ begin
 
 	process (CLOCK)
 	begin
-	-- FLANCO ALTO
+	-- FLANCO BAJO
 	
 		if (CLOCK = '1' and CLOCK'EVENT) then
 			Q <= D;

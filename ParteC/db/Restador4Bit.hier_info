@@ -1,0 +1,175 @@
+|Block2
+clk => d_ff:b2v_inst11.CLOCK
+clk => d_ff:b2v_inst12.CLOCK
+clk => d_ff:b2v_inst13.CLOCK
+clk => d_ff:b2v_inst14.CLOCK
+clk => d_ff:b2v_inst21.CLOCK
+clk => d_ff:b2v_inst22.CLOCK
+clk => d_ff:b2v_inst24.CLOCK
+clk => d_ff:b2v_inst31.CLOCK
+clk => d_ff:b2v_inst32.CLOCK
+clk => d_ff:b2v_inst34.CLOCK
+clk => d_ff:b2v_inst41.CLOCK
+clk => d_ff:b2v_inst42.CLOCK
+clk => d_ff:b2v_inst44.CLOCK
+clk => d_ff:b2v_inst45.CLOCK
+clk => d_ff:b2v_instZ.CLOCK
+a1 => d_ff:b2v_inst11.D
+b1 => d_ff:b2v_inst12.D
+bin1 => d_ff:b2v_inst13.D
+a2 => d_ff:b2v_inst21.D
+b2 => d_ff:b2v_inst22.D
+a3 => d_ff:b2v_inst31.D
+b3 => d_ff:b2v_inst32.D
+a4 => d_ff:b2v_inst41.D
+b4 => d_ff:b2v_inst42.D
+res1 <= d_ff:b2v_inst14.Q
+res2 <= d_ff:b2v_inst24.Q
+res3 <= d_ff:b2v_inst34.Q
+res4 <= d_ff:b2v_inst44.Q
+Bout <= d_ff:b2v_inst45.Q
+Z <= d_ff:b2v_instZ.Q
+
+
+|Block2|Restador4Bit:b2v_inst10
+a => res.IN0
+a => bout.IN1
+b => res.IN1
+b => bout.IN0
+b => bout.IN0
+bin => res.IN1
+bin => bout.IN1
+bin => bout.IN1
+bout <= bout.DB_MAX_OUTPUT_PORT_TYPE
+res <= res.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Block2|D_FF:b2v_inst11
+D => Q~reg0.DATAIN
+CLOCK => Q~reg0.CLK
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Block2|D_FF:b2v_inst12
+D => Q~reg0.DATAIN
+CLOCK => Q~reg0.CLK
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Block2|D_FF:b2v_inst13
+D => Q~reg0.DATAIN
+CLOCK => Q~reg0.CLK
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Block2|D_FF:b2v_inst14
+D => Q~reg0.DATAIN
+CLOCK => Q~reg0.CLK
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Block2|Restador4Bit:b2v_inst20
+a => res.IN0
+a => bout.IN1
+b => res.IN1
+b => bout.IN0
+b => bout.IN0
+bin => res.IN1
+bin => bout.IN1
+bin => bout.IN1
+bout <= bout.DB_MAX_OUTPUT_PORT_TYPE
+res <= res.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Block2|D_FF:b2v_inst21
+D => Q~reg0.DATAIN
+CLOCK => Q~reg0.CLK
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Block2|D_FF:b2v_inst22
+D => Q~reg0.DATAIN
+CLOCK => Q~reg0.CLK
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Block2|D_FF:b2v_inst24
+D => Q~reg0.DATAIN
+CLOCK => Q~reg0.CLK
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Block2|Restador4Bit:b2v_inst30
+a => res.IN0
+a => bout.IN1
+b => res.IN1
+b => bout.IN0
+b => bout.IN0
+bin => res.IN1
+bin => bout.IN1
+bin => bout.IN1
+bout <= bout.DB_MAX_OUTPUT_PORT_TYPE
+res <= res.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Block2|D_FF:b2v_inst31
+D => Q~reg0.DATAIN
+CLOCK => Q~reg0.CLK
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Block2|D_FF:b2v_inst32
+D => Q~reg0.DATAIN
+CLOCK => Q~reg0.CLK
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Block2|D_FF:b2v_inst34
+D => Q~reg0.DATAIN
+CLOCK => Q~reg0.CLK
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Block2|Restador4Bit:b2v_inst40
+a => res.IN0
+a => bout.IN1
+b => res.IN1
+b => bout.IN0
+b => bout.IN0
+bin => res.IN1
+bin => bout.IN1
+bin => bout.IN1
+bout <= bout.DB_MAX_OUTPUT_PORT_TYPE
+res <= res.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Block2|D_FF:b2v_inst41
+D => Q~reg0.DATAIN
+CLOCK => Q~reg0.CLK
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Block2|D_FF:b2v_inst42
+D => Q~reg0.DATAIN
+CLOCK => Q~reg0.CLK
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Block2|D_FF:b2v_inst44
+D => Q~reg0.DATAIN
+CLOCK => Q~reg0.CLK
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Block2|D_FF:b2v_inst45
+D => Q~reg0.DATAIN
+CLOCK => Q~reg0.CLK
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Block2|D_FF:b2v_instZ
+D => Q~reg0.DATAIN
+CLOCK => Q~reg0.CLK
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
