@@ -1,0 +1,114 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\Manu\Desktop\facu\T y DD II\LAB\TESTParteC\simulation\modelsim
+Ed_ff
+Z1 w1730502434
+Z2 DPx4 ieee 18 std_logic_unsigned 0 22 RYmj;=TK`k=k>D@Cz`zoB3
+Z3 DPx4 ieee 15 std_logic_arith 0 22 4`Y?g_lkdn;7UL9IiJck01
+Z4 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z5 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z6 dC:\Users\Manu\Desktop\facu\T y DD II\LAB\TESTParteC\simulation\modelsim
+Z7 8C:/Users/Manu/Desktop/facu/T y DD II/LAB/TESTParteC/FF_D.vhd
+Z8 FC:/Users/Manu/Desktop/facu/T y DD II/LAB/TESTParteC/FF_D.vhd
+l0
+L7
+V4=IKP?^Hh[c2hHNUA1G311
+Z9 OV;C;10.1d;51
+31
+Z10 !s108 1730506031.361000
+Z11 !s90 -reportprogress|300|-93|-work|work|C:/Users/Manu/Desktop/facu/T y DD II/LAB/TESTParteC/FF_D.vhd|
+Z12 !s107 C:/Users/Manu/Desktop/facu/T y DD II/LAB/TESTParteC/FF_D.vhd|
+Z13 o-93 -work work -O0
+Z14 tExplicit 1
+!s100 M`369ST[NU`SS79Lf9I[<1
+!i10b 1
+Abehave
+R2
+R3
+R4
+R5
+DEx4 work 4 d_ff 0 22 4=IKP?^Hh[c2hHNUA1G311
+l20
+L18
+V[b4=GAF]:E_LE3Tl4fZc;0
+R9
+31
+R10
+R11
+R12
+R13
+R14
+!s100 C96<_EiHFMDD0@4fF3ONN3
+!i10b 1
+Esumador4bit
+Z15 w1730501819
+R4
+R5
+R6
+Z16 8C:/Users/Manu/Desktop/facu/T y DD II/LAB/TESTParteC/Sumador4Bit.vhd
+Z17 FC:/Users/Manu/Desktop/facu/T y DD II/LAB/TESTParteC/Sumador4Bit.vhd
+l0
+L5
+V8=>XG31B3@B0gE2N71LK_3
+R9
+31
+Z18 !s108 1730506031.283000
+Z19 !s90 -reportprogress|300|-93|-work|work|C:/Users/Manu/Desktop/facu/T y DD II/LAB/TESTParteC/Sumador4Bit.vhd|
+Z20 !s107 C:/Users/Manu/Desktop/facu/T y DD II/LAB/TESTParteC/Sumador4Bit.vhd|
+R13
+R14
+!s100 nQf8hNO63715Fz;F5@6AM2
+!i10b 1
+Abehave
+R4
+R5
+DEx4 work 11 sumador4bit 0 22 8=>XG31B3@B0gE2N71LK_3
+l18
+L16
+V1N:O@N1]U@N:8cPk42hFF3
+R9
+31
+R18
+R19
+R20
+R13
+R14
+!s100 LmSkTWNLRlFd_>7@16h9;2
+!i10b 1
+Esumadordefbloq
+Z21 w1730505974
+R4
+R5
+R6
+Z22 8C:/Users/Manu/Desktop/facu/T y DD II/LAB/TESTParteC/SumadorDefBloq.vhd
+Z23 FC:/Users/Manu/Desktop/facu/T y DD II/LAB/TESTParteC/SumadorDefBloq.vhd
+l0
+L24
+VRFjEzS7kekXRchlUNdMSU3
+!s100 jiAJGZ[LI_O8M[zjXoY071
+R9
+31
+!i10b 1
+Z24 !s108 1730506031.443000
+Z25 !s90 -reportprogress|300|-93|-work|work|C:/Users/Manu/Desktop/facu/T y DD II/LAB/TESTParteC/SumadorDefBloq.vhd|
+Z26 !s107 C:/Users/Manu/Desktop/facu/T y DD II/LAB/TESTParteC/SumadorDefBloq.vhd|
+R13
+R14
+Abdf_type
+R4
+R5
+DEx4 work 14 sumadordefbloq 0 22 RFjEzS7kekXRchlUNdMSU3
+l91
+L51
+VSfWL:^XY7b7AC7XH][m6L0
+!s100 MQkBJ?I_Q`nK0;gR_dWXM2
+R9
+31
+!i10b 1
+R24
+R25
+R26
+R13
+R14

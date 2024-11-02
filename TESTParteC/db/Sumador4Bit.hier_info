@@ -1,0 +1,207 @@
+|SumadorDefBloq
+Cin1 => d_ff:b2v_inst13.D
+b1 => d_ff:b2v_inst12.D
+a1 => d_ff:b2v_inst11.D
+a2 => d_ff:b2v_inst21.D
+b2 => d_ff:b2v_inst22.D
+Cin2 => d_ff:b2v_inst23.D
+Cin3 => d_ff:b2v_inst33.D
+a3 => d_ff:b2v_inst31.D
+b3 => d_ff:b2v_inst32.D
+a4 => d_ff:b2v_inst41.D
+b4 => d_ff:b2v_inst42.D
+Cin4 => d_ff:b2v_inst43.D
+clk => d_ff:b2v_inst11.CLOCK
+clk => d_ff:b2v_inst12.CLOCK
+clk => d_ff:b2v_inst13.CLOCK
+clk => d_ff:b2v_inst14.CLOCK
+clk => d_ff:b2v_inst15.CLOCK
+clk => d_ff:b2v_inst21.CLOCK
+clk => d_ff:b2v_inst22.CLOCK
+clk => d_ff:b2v_inst23.CLOCK
+clk => d_ff:b2v_inst24.CLOCK
+clk => d_ff:b2v_inst25.CLOCK
+clk => d_ff:b2v_inst31.CLOCK
+clk => d_ff:b2v_inst32.CLOCK
+clk => d_ff:b2v_inst33.CLOCK
+clk => d_ff:b2v_inst34.CLOCK
+clk => d_ff:b2v_inst35.CLOCK
+clk => d_ff:b2v_inst41.CLOCK
+clk => d_ff:b2v_inst42.CLOCK
+clk => d_ff:b2v_inst43.CLOCK
+clk => d_ff:b2v_inst44.CLOCK
+clk => d_ff:b2v_inst45.CLOCK
+Cout1 <= d_ff:b2v_inst15.Q
+res1 <= d_ff:b2v_inst14.Q
+Cout2 <= d_ff:b2v_inst25.Q
+res2 <= d_ff:b2v_inst24.Q
+res3 <= d_ff:b2v_inst34.Q
+Cout3 <= d_ff:b2v_inst35.Q
+Cout4 <= d_ff:b2v_inst45.Q
+res4 <= d_ff:b2v_inst44.Q
+
+
+|SumadorDefBloq|Sumador4Bit:b2v_inst1
+a => cout.IN0
+a => cout.IN0
+b => cout.IN1
+b => cout.IN1
+cin => res.IN1
+cin => cout.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+res <= res.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|SumadorDefBloq|D_FF:b2v_inst11
+D => Q~reg0.DATAIN
+CLOCK => Q~reg0.CLK
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|SumadorDefBloq|D_FF:b2v_inst12
+D => Q~reg0.DATAIN
+CLOCK => Q~reg0.CLK
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|SumadorDefBloq|D_FF:b2v_inst13
+D => Q~reg0.DATAIN
+CLOCK => Q~reg0.CLK
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|SumadorDefBloq|D_FF:b2v_inst14
+D => Q~reg0.DATAIN
+CLOCK => Q~reg0.CLK
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|SumadorDefBloq|D_FF:b2v_inst15
+D => Q~reg0.DATAIN
+CLOCK => Q~reg0.CLK
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|SumadorDefBloq|Sumador4Bit:b2v_inst2
+a => cout.IN0
+a => cout.IN0
+b => cout.IN1
+b => cout.IN1
+cin => res.IN1
+cin => cout.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+res <= res.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|SumadorDefBloq|D_FF:b2v_inst21
+D => Q~reg0.DATAIN
+CLOCK => Q~reg0.CLK
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|SumadorDefBloq|D_FF:b2v_inst22
+D => Q~reg0.DATAIN
+CLOCK => Q~reg0.CLK
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|SumadorDefBloq|D_FF:b2v_inst23
+D => Q~reg0.DATAIN
+CLOCK => Q~reg0.CLK
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|SumadorDefBloq|D_FF:b2v_inst24
+D => Q~reg0.DATAIN
+CLOCK => Q~reg0.CLK
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|SumadorDefBloq|D_FF:b2v_inst25
+D => Q~reg0.DATAIN
+CLOCK => Q~reg0.CLK
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|SumadorDefBloq|Sumador4Bit:b2v_inst3
+a => cout.IN0
+a => cout.IN0
+b => cout.IN1
+b => cout.IN1
+cin => res.IN1
+cin => cout.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+res <= res.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|SumadorDefBloq|D_FF:b2v_inst31
+D => Q~reg0.DATAIN
+CLOCK => Q~reg0.CLK
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|SumadorDefBloq|D_FF:b2v_inst32
+D => Q~reg0.DATAIN
+CLOCK => Q~reg0.CLK
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|SumadorDefBloq|D_FF:b2v_inst33
+D => Q~reg0.DATAIN
+CLOCK => Q~reg0.CLK
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|SumadorDefBloq|D_FF:b2v_inst34
+D => Q~reg0.DATAIN
+CLOCK => Q~reg0.CLK
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|SumadorDefBloq|D_FF:b2v_inst35
+D => Q~reg0.DATAIN
+CLOCK => Q~reg0.CLK
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|SumadorDefBloq|Sumador4Bit:b2v_inst4
+a => cout.IN0
+a => cout.IN0
+b => cout.IN1
+b => cout.IN1
+cin => res.IN1
+cin => cout.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+res <= res.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|SumadorDefBloq|D_FF:b2v_inst41
+D => Q~reg0.DATAIN
+CLOCK => Q~reg0.CLK
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|SumadorDefBloq|D_FF:b2v_inst42
+D => Q~reg0.DATAIN
+CLOCK => Q~reg0.CLK
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|SumadorDefBloq|D_FF:b2v_inst43
+D => Q~reg0.DATAIN
+CLOCK => Q~reg0.CLK
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|SumadorDefBloq|D_FF:b2v_inst44
+D => Q~reg0.DATAIN
+CLOCK => Q~reg0.CLK
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|SumadorDefBloq|D_FF:b2v_inst45
+D => Q~reg0.DATAIN
+CLOCK => Q~reg0.CLK
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+

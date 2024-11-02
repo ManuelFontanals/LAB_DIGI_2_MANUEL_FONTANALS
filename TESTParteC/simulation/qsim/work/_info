@@ -1,0 +1,165 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\Manu\Desktop\facu\T y DD II\LAB\TESTParteC\simulation\qsim
+vBlock1
+Z1 !s100 IFD>PkUZiJiT^O[U2f^nP0
+Z2 IbRg@=J^W?_QVCN8UL[C4:1
+Z3 V7fHZDCJ>9Y3d>=570MCS82
+Z4 dC:\Users\Manu\Desktop\facu\T y DD II\LAB\TESTParteC\simulation\qsim
+Z5 w1730505651
+Z6 8Sumador4Bit.vo
+Z7 FSumador4Bit.vo
+L0 31
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s90 -work|work|Sumador4Bit.vo|
+Z10 o-work work -O0
+Z11 n@block1
+Z12 !s108 1730505652.328000
+Z13 !s107 Sumador4Bit.vo|
+!i10b 1
+!s85 0
+!s101 -O0
+vBlock1_vlg_check_tst
+Z14 !s100 8FkP12<VGgmT_CfnUC11J1
+Z15 I`?Xg]V<iGC3>>;GJFeKIL1
+Z16 Vo>m;DzTKlY8AH9zHH:k@X2
+R4
+Z17 w1730505650
+Z18 8Sumador4Bit.vt
+Z19 FSumador4Bit.vt
+L0 81
+R8
+r1
+31
+Z20 !s108 1730505652.406000
+Z21 !s107 Sumador4Bit.vt|
+Z22 !s90 -work|work|Sumador4Bit.vt|
+R10
+Z23 n@block1_vlg_check_tst
+!i10b 1
+!s85 0
+!s101 -O0
+vBlock1_vlg_sample_tst
+Z24 !s100 H[XbWC90<Gabd0EXXi__k0
+Z25 INSQzBQ>X1_@az9mF9PWMF0
+Z26 VH6ASn6ho1Na4==9K`5gj]2
+R4
+R17
+R18
+R19
+L0 29
+R8
+r1
+31
+R20
+R21
+R22
+R10
+Z27 n@block1_vlg_sample_tst
+!i10b 1
+!s85 0
+!s101 -O0
+vBlock1_vlg_vec_tst
+Z28 !s100 h7k?T3G`_C82K9]h>A^;60
+Z29 I^jMO:1J>Q6U4;1<ORCK812
+Z30 V8EbEX^g@9e0ZUXjTWSm=l2
+R4
+R17
+R18
+R19
+Z31 L0 365
+R8
+r1
+31
+R20
+R21
+R22
+R10
+Z32 n@block1_vlg_vec_tst
+!i10b 1
+!s85 0
+!s101 -O0
+vSumadorDefBloq
+Z33 II4zRBBaAQ?6cai;14:QjM3
+Z34 V?W[ok^bBXD3J`F36GE3@23
+R4
+Z35 w1730506099
+R6
+R7
+L0 31
+R8
+r1
+31
+R9
+R10
+Z36 n@sumador@def@bloq
+!i10b 1
+Z37 !s100 jNM<EUod91@^g[dFBCSWL2
+!s85 0
+Z38 !s108 1730506099.960000
+R13
+!s101 -O0
+vSumadorDefBloq_vlg_check_tst
+!i10b 1
+!s100 T;<BAB6?jl2724mC`M>RL0
+IloCT84U;k^z<UWGZ6AE_31
+VbY8Cb9d_zNog583HAQ<b31
+R4
+Z39 w1730506098
+R18
+R19
+L0 81
+R8
+r1
+!s85 0
+31
+Z40 !s108 1730506100.045000
+Z41 !s107 Sumador4Bit.vt|
+R22
+!s101 -O0
+R10
+n@sumador@def@bloq_vlg_check_tst
+vSumadorDefBloq_vlg_sample_tst
+!i10b 1
+!s100 _AZL<WD?ZG@mLnbdZhJaN3
+I?0?knZc2_dUDMBGhAklQb3
+VD<MWMi9?j@=WUi6i8iOB93
+R4
+R39
+R18
+R19
+L0 29
+R8
+r1
+!s85 0
+31
+R40
+R41
+R22
+!s101 -O0
+R10
+n@sumador@def@bloq_vlg_sample_tst
+vSumadorDefBloq_vlg_vec_tst
+!i10b 1
+!s100 ]WDm7>8hSh6aD0AKY:TD32
+I6dShX;M17KJWeIND=PN842
+VP?UX>eOlFf6Hc3LjPTI5H2
+R4
+R39
+R18
+R19
+R31
+R8
+r1
+!s85 0
+31
+R40
+R41
+R22
+!s101 -O0
+R10
+n@sumador@def@bloq_vlg_vec_tst
