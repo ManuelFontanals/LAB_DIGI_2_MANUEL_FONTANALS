@@ -1,0 +1,85 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\Manu\Desktop\facu\T y DD II\LAB\TESTParteE\simulation\qsim
+vTestStateMach
+Z1 !s100 O20l;mizZc4C@Qd>Q5<dV2
+Z2 InFGi?S^J[iLDJ608@:2k01
+Z3 Vce;OL[VAo8EYG?gXaSmTR3
+Z4 dC:\Users\Manu\Desktop\facu\T y DD II\LAB\TESTParteE\simulation\qsim
+Z5 w1730931076
+Z6 8TestStateMach.vo
+Z7 FTestStateMach.vo
+L0 31
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s90 -work|work|TestStateMach.vo|
+Z10 o-work work -O0
+Z11 n@test@state@mach
+!i10b 1
+!s85 0
+Z12 !s108 1730931077.497000
+Z13 !s107 TestStateMach.vo|
+!s101 -O0
+vTestStateMach_vlg_check_tst
+!i10b 1
+Z14 !s100 d?ONj3[bOOP[5O6ZD`A0E2
+Z15 IKg=QHE2AN;A]>0Dch?mV;3
+Z16 VN:0:fn`;;STn:gSYX;OG]3
+R4
+Z17 w1730931075
+Z18 8TestStateMach.vt
+Z19 FTestStateMach.vt
+L0 63
+R8
+r1
+!s85 0
+31
+Z20 !s108 1730931077.569000
+Z21 !s107 TestStateMach.vt|
+Z22 !s90 -work|work|TestStateMach.vt|
+!s101 -O0
+R10
+Z23 n@test@state@mach_vlg_check_tst
+vTestStateMach_vlg_sample_tst
+!i10b 1
+Z24 !s100 65NX;NT<=5[7^<QXOh97o2
+Z25 I0]_QTcG]k?6UAczQY1AfT3
+Z26 VfhOk>[FUNG;lE15HD_Gjd3
+R4
+R17
+R18
+R19
+L0 29
+R8
+r1
+!s85 0
+31
+R20
+R21
+R22
+!s101 -O0
+R10
+Z27 n@test@state@mach_vlg_sample_tst
+vTestStateMach_vlg_vec_tst
+!i10b 1
+Z28 !s100 9e8gGXB@ocUVY`1b2?MkY2
+Z29 II<TU2UN[gR`dcU<I9fQH[3
+Z30 V>5[STEZ5FfzMTiX925G8G3
+R4
+R17
+R18
+R19
+Z31 L0 158
+R8
+r1
+!s85 0
+31
+R20
+R21
+R22
+!s101 -O0
+R10
+Z32 n@test@state@mach_vlg_vec_tst

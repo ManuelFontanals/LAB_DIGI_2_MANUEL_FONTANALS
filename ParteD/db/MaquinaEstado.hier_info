@@ -1,0 +1,15 @@
+|MaquinaEstado
+reset => reg_fstate.A.OUTPUTSELECT
+reset => reg_fstate.B.OUTPUTSELECT
+reset => reg_fstate.D.OUTPUTSELECT
+reset => reg_fstate.C.OUTPUTSELECT
+reset => Z.OUTPUTSELECT
+clock => fstate~1.DATAIN
+x => Selector2.IN1
+x => Z.DATAB
+x => reg_fstate.A.DATAA
+x => Selector1.IN1
+x => Selector0.IN1
+Z <= Z.DB_MAX_OUTPUT_PORT_TYPE
+
+

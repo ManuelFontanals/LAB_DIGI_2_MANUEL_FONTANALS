@@ -1,0 +1,11 @@
+|MaquinaEst2
+clk => state~3.DATAIN
+x => state.DATAB
+x => state.DATAB
+x => state.DATAA
+x => z.DATAB
+x => state.A.DATAIN
+reset => state~5.DATAIN
+z <= z.DB_MAX_OUTPUT_PORT_TYPE
+
+

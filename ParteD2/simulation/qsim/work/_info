@@ -1,0 +1,85 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\Manu\Desktop\facu\T y DD II\LAB\ParteD2\simulation\qsim
+vMaquinaEst2
+Z1 !s100 =3Cf3o8deX0K8LWG<X;h=0
+Z2 If^Yb9VZ=m_Hlc2[d^3W7k3
+Z3 VCgc[7Bz>Yiz3OGFD]cCT:1
+Z4 dC:\Users\Manu\Desktop\facu\T y DD II\LAB\ParteD2\simulation\qsim
+Z5 w1730927521
+Z6 8MaquinaEst2.vo
+Z7 FMaquinaEst2.vo
+L0 31
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s90 -work|work|MaquinaEst2.vo|
+Z10 o-work work -O0
+Z11 n@maquina@est2
+!i10b 1
+!s85 0
+Z12 !s108 1730927521.894000
+Z13 !s107 MaquinaEst2.vo|
+!s101 -O0
+vMaquinaEst2_vlg_check_tst
+!i10b 1
+Z14 !s100 8=Hgo>fWFXn3K5^mACiKF0
+Z15 IXI3dA`DS^9kD=>cm]4AiC2
+Z16 VY`Bn?O73>eFIR<zm7^Pa80
+R4
+Z17 w1730927520
+Z18 8MaquinaEst2.vt
+Z19 FMaquinaEst2.vt
+L0 61
+R8
+r1
+!s85 0
+31
+Z20 !s108 1730927521.972000
+Z21 !s107 MaquinaEst2.vt|
+Z22 !s90 -work|work|MaquinaEst2.vt|
+!s101 -O0
+R10
+Z23 n@maquina@est2_vlg_check_tst
+vMaquinaEst2_vlg_sample_tst
+!i10b 1
+Z24 !s100 YmE:7k3e>kDJ8E;^4abi^0
+Z25 IK0fDLjRA^ADK2QIb=Oha33
+Z26 VJ=:XlWWZFbDBWb@G`H=mD2
+R4
+R17
+R18
+R19
+L0 29
+R8
+r1
+!s85 0
+31
+R20
+R21
+R22
+!s101 -O0
+R10
+Z27 n@maquina@est2_vlg_sample_tst
+vMaquinaEst2_vlg_vec_tst
+!i10b 1
+!s100 DILWMHa5iEGE;_?;ONeZZ0
+I;]m6a7^hc]?ESeCJh7BC=0
+Z28 VG[6IcCj>Y15GCQ;VCe9o42
+R4
+R17
+R18
+R19
+Z29 L0 156
+R8
+r1
+!s85 0
+31
+R20
+R21
+R22
+!s101 -O0
+R10
+Z30 n@maquina@est2_vlg_vec_tst

@@ -1,0 +1,10 @@
+|TestStateMach
+reset => reg_fstate.OUTPUTSELECT
+reset => z.OUTPUTSELECT
+clock => fstate.CLK
+a => process_1.IN0
+a => reg_fstate.DATAA
+b => process_1.IN1
+z <= z.DB_MAX_OUTPUT_PORT_TYPE
+
+

@@ -1,0 +1,17 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/Manu/Desktop/facu/T y DD II/LAB/TESTParteE/TestStateMach.smf
+source_file = 1, C:/Users/Manu/Desktop/facu/T y DD II/LAB/TESTParteE/Waveform.vwf
+source_file = 1, C:/Users/Manu/Desktop/facu/T y DD II/LAB/TESTParteE/teststatemach.vhd
+source_file = 1, C:/Users/Manu/Desktop/facu/T y DD II/LAB/TESTParteE/db/TestStateMach.cbx.xml
+source_file = 1, c:/altera/13.0sp1/quartus/libraries/vhdl/ieee/prmtvs_b.vhd
+source_file = 1, c:/altera/13.0sp1/quartus/libraries/vhdl/ieee/prmtvs_p.vhd
+source_file = 1, c:/altera/13.0sp1/quartus/libraries/vhdl/ieee/timing_b.vhd
+source_file = 1, c:/altera/13.0sp1/quartus/libraries/vhdl/ieee/timing_p.vhd
+design_name = TestStateMach
+instance = comp, \b~input , b~input, TestStateMach, 1
+instance = comp, \clock~input , clock~input, TestStateMach, 1
+instance = comp, \z~output , z~output, TestStateMach, 1
+instance = comp, \reset~input , reset~input, TestStateMach, 1
+instance = comp, \a~input , a~input, TestStateMach, 1
+instance = comp, \reg_fstate~0 , reg_fstate~0, TestStateMach, 1
+instance = comp, \z~0 , z~0, TestStateMach, 1

@@ -1,0 +1,7 @@
+
+State Machine - |MaquinaEstado|fstate
+Name fstate.state_bit_1 fstate.state_bit_0 
+fstate.A 0 0 
+fstate.B 0 1 
+fstate.D 1 0 
+fstate.C 1 1 

@@ -1,0 +1,85 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\Manu\Desktop\facu\T y DD II\LAB\ParteE\simulation\qsim
+vConexionMasterSlave
+Z1 !s100 h=?I^a]PdhN^5OmYZ5?D41
+Z2 IfB5Mi`QEILYek2XacXzKH0
+Z3 V<XPgcol@zOz<d[16=W3Yb2
+Z4 dC:\Users\Manu\Desktop\facu\T y DD II\LAB\ParteE\simulation\qsim
+Z5 w1730933473
+Z6 8ConexionMasterSlave.vo
+Z7 FConexionMasterSlave.vo
+L0 31
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s90 -work|work|ConexionMasterSlave.vo|
+Z10 o-work work -O0
+Z11 n@conexion@master@slave
+!i10b 1
+!s85 0
+Z12 !s108 1730933474.280000
+Z13 !s107 ConexionMasterSlave.vo|
+!s101 -O0
+vConexionMasterSlave_vlg_check_tst
+!i10b 1
+Z14 !s100 aL1EXm_551LQzS4KgMzX33
+Z15 IN9]Z8^m:<`[XHgNFN>>@f3
+Z16 V89Y03nH7kSzIZc7H;1Z^:1
+R4
+Z17 w1730933472
+Z18 8ConexionMasterSlave.vt
+Z19 FConexionMasterSlave.vt
+L0 67
+R8
+r1
+!s85 0
+31
+Z20 !s108 1730933474.358000
+Z21 !s107 ConexionMasterSlave.vt|
+Z22 !s90 -work|work|ConexionMasterSlave.vt|
+!s101 -O0
+R10
+Z23 n@conexion@master@slave_vlg_check_tst
+vConexionMasterSlave_vlg_sample_tst
+!i10b 1
+Z24 !s100 GFoE=GlWnIAWP]>:K6IY53
+Z25 Iel0hLRh9Ac[;^WhBUKGe51
+Z26 VmBU=6I>zHNR8A?FFZZF3l1
+R4
+R17
+R18
+R19
+L0 29
+R8
+r1
+!s85 0
+31
+R20
+R21
+R22
+!s101 -O0
+R10
+Z27 n@conexion@master@slave_vlg_sample_tst
+vConexionMasterSlave_vlg_vec_tst
+!i10b 1
+!s100 87PJS@?K=VVE]jUGl3^TG2
+I_JVLCf09TB0eJ4?AB[QKI1
+Z28 V2M?J8c?odBZSK>Y2;^blX3
+R4
+R17
+R18
+R19
+Z29 L0 216
+R8
+r1
+!s85 0
+31
+R20
+R21
+R22
+!s101 -O0
+R10
+Z30 n@conexion@master@slave_vlg_vec_tst

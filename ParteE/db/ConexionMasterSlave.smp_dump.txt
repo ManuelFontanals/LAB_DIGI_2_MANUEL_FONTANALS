@@ -1,0 +1,9 @@
+
+State Machine - |ConexionMasterSlave|fstate
+Name fstate.Start fstate.SaveData fstate.WaitConec fstate.WriteOrRead fstate.DirCheck fstate.Idle 
+fstate.Idle 0 0 0 0 0 0 
+fstate.DirCheck 0 0 0 0 1 1 
+fstate.WriteOrRead 0 0 0 1 0 1 
+fstate.WaitConec 0 0 1 0 0 1 
+fstate.SaveData 0 1 0 0 0 1 
+fstate.Start 1 0 0 0 0 1 

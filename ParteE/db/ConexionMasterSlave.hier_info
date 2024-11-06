@@ -1,0 +1,24 @@
+|ConexionMasterSlave
+reset => reg_fstate.Idle.OUTPUTSELECT
+reset => reg_fstate.DirCheck.OUTPUTSELECT
+reset => reg_fstate.WriteOrRead.OUTPUTSELECT
+reset => reg_fstate.WaitConec.OUTPUTSELECT
+reset => reg_fstate.SaveData.OUTPUTSELECT
+reset => reg_fstate.Start.OUTPUTSELECT
+reset => Hab_dir.OUTPUTSELECT
+reset => Hab_Data.OUTPUTSELECT
+reset => ACK.OUTPUTSELECT
+SCL => fstate~1.DATAIN
+SDA => Selector0.IN3
+SDA => reg_fstate.DATAB
+fin_dir => process_1.IN0
+fin_dir => process_1.IN0
+fin_dato => Selector0.IN4
+fin_dato => Selector2.IN2
+soy => process_1.IN1
+soy => process_1.IN1
+Hab_dir <= Hab_dir.DB_MAX_OUTPUT_PORT_TYPE
+Hab_Data <= Hab_Data.DB_MAX_OUTPUT_PORT_TYPE
+ACK <= ACK.DB_MAX_OUTPUT_PORT_TYPE
+
+
