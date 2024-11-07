@@ -25,8 +25,6 @@
 # Loading cycloneiii_ver.cycloneiii_ena_reg
 # Loading work.SumadorCompleto_vlg_sample_tst
 # Loading work.SumadorCompleto_vlg_check_tst
-# SDF 10.1d Compiler 2012.11 Nov  2 2012
-# 
 # Loading instances from SumadorCompleto_v.sdo
 # Loading altera_ver.PRIM_GDFF_LOW
 # Loading timing data from SumadorCompleto_v.sdo

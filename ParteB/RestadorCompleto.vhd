@@ -33,7 +33,7 @@ architecture behave of RestadorCompleto is
 	end component;
 	
 
-	-- NO C Q HACE ESTO (CREO DEF VARIABLES)
+	-- DEFINE SEÑALES INTERNAS
 	signal a, b, bin, bout, res: std_logic;
 
 

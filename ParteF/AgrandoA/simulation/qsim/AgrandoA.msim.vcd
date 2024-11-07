@@ -1,0 +1,114 @@
+$comment
+	File created using the following command:
+		vcd file AgrandoA.msim.vcd -direction
+$end
+$date
+	Wed Nov 06 23:00:35 2024
+$end
+$version
+	ModelSim Version 10.1d
+$end
+$timescale
+	1ps
+$end
+$scope module AgrandoA_vlg_vec_tst $end
+$var reg 6 ! a [5:0] $end
+$var wire 1 " a_out [15] $end
+$var wire 1 # a_out [14] $end
+$var wire 1 $ a_out [13] $end
+$var wire 1 % a_out [12] $end
+$var wire 1 & a_out [11] $end
+$var wire 1 ' a_out [10] $end
+$var wire 1 ( a_out [9] $end
+$var wire 1 ) a_out [8] $end
+$var wire 1 * a_out [7] $end
+$var wire 1 + a_out [6] $end
+$var wire 1 , a_out [5] $end
+$var wire 1 - a_out [4] $end
+$var wire 1 . a_out [3] $end
+$var wire 1 / a_out [2] $end
+$var wire 1 0 a_out [1] $end
+$var wire 1 1 a_out [0] $end
+$var wire 1 2 sampler $end
+$scope module i1 $end
+$var wire 1 3 gnd $end
+$var wire 1 4 vcc $end
+$var wire 1 5 unknown $end
+$var tri1 1 6 devclrn $end
+$var tri1 1 7 devpor $end
+$var tri1 1 8 devoe $end
+$var wire 1 9 a_out[0]~output_o $end
+$var wire 1 : a_out[1]~output_o $end
+$var wire 1 ; a_out[2]~output_o $end
+$var wire 1 < a_out[3]~output_o $end
+$var wire 1 = a_out[4]~output_o $end
+$var wire 1 > a_out[5]~output_o $end
+$var wire 1 ? a_out[6]~output_o $end
+$var wire 1 @ a_out[7]~output_o $end
+$var wire 1 A a_out[8]~output_o $end
+$var wire 1 B a_out[9]~output_o $end
+$var wire 1 C a_out[10]~output_o $end
+$var wire 1 D a_out[11]~output_o $end
+$var wire 1 E a_out[12]~output_o $end
+$var wire 1 F a_out[13]~output_o $end
+$var wire 1 G a_out[14]~output_o $end
+$var wire 1 H a_out[15]~output_o $end
+$var wire 1 I a[0]~input_o $end
+$var wire 1 J a[1]~input_o $end
+$var wire 1 K a[2]~input_o $end
+$var wire 1 L a[3]~input_o $end
+$var wire 1 M a[4]~input_o $end
+$var wire 1 N a[5]~input_o $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b101100 !
+01
+00
+0/
+0.
+0-
+0,
+1+
+1*
+0)
+1(
+0'
+0&
+0%
+0$
+0#
+0"
+x2
+03
+14
+x5
+16
+17
+18
+09
+0:
+0;
+0<
+0=
+0>
+1?
+1@
+0A
+1B
+0C
+0D
+0E
+0F
+0G
+0H
+0I
+0J
+1K
+1L
+0M
+1N
+$end
+#1000000

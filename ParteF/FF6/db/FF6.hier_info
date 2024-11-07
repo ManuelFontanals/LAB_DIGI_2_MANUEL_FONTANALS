@@ -1,0 +1,57 @@
+|FF6
+a0 => D_FF:D1.D
+a1 => D_FF:D2.D
+a2 => D_FF:D3.D
+a3 => D_FF:D4.D
+a4 => D_FF:D5.D
+a5 => D_FF:D6.D
+clk => D_FF:D1.CLOCK
+clk => D_FF:D2.CLOCK
+clk => D_FF:D3.CLOCK
+clk => D_FF:D4.CLOCK
+clk => D_FF:D5.CLOCK
+clk => D_FF:D6.CLOCK
+OUT6[0] <= D_FF:D6.Q
+OUT6[1] <= D_FF:D5.Q
+OUT6[2] <= D_FF:D4.Q
+OUT6[3] <= D_FF:D3.Q
+OUT6[4] <= D_FF:D2.Q
+OUT6[5] <= D_FF:D1.Q
+
+
+|FF6|D_FF:D1
+D => Q~reg0.DATAIN
+CLOCK => Q~reg0.CLK
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FF6|D_FF:D2
+D => Q~reg0.DATAIN
+CLOCK => Q~reg0.CLK
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FF6|D_FF:D3
+D => Q~reg0.DATAIN
+CLOCK => Q~reg0.CLK
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FF6|D_FF:D4
+D => Q~reg0.DATAIN
+CLOCK => Q~reg0.CLK
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FF6|D_FF:D5
+D => Q~reg0.DATAIN
+CLOCK => Q~reg0.CLK
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FF6|D_FF:D6
+D => Q~reg0.DATAIN
+CLOCK => Q~reg0.CLK
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+

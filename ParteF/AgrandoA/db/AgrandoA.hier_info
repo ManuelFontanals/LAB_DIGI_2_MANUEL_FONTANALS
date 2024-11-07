@@ -1,0 +1,25 @@
+|AgrandoA
+a[0] => a_out[4].DATAIN
+a[1] => a_out[5].DATAIN
+a[2] => a_out[6].DATAIN
+a[3] => a_out[7].DATAIN
+a[4] => a_out[8].DATAIN
+a[5] => a_out[9].DATAIN
+a_out[0] <= <GND>
+a_out[1] <= <GND>
+a_out[2] <= <GND>
+a_out[3] <= <GND>
+a_out[4] <= a[0].DB_MAX_OUTPUT_PORT_TYPE
+a_out[5] <= a[1].DB_MAX_OUTPUT_PORT_TYPE
+a_out[6] <= a[2].DB_MAX_OUTPUT_PORT_TYPE
+a_out[7] <= a[3].DB_MAX_OUTPUT_PORT_TYPE
+a_out[8] <= a[4].DB_MAX_OUTPUT_PORT_TYPE
+a_out[9] <= a[5].DB_MAX_OUTPUT_PORT_TYPE
+a_out[10] <= <GND>
+a_out[11] <= <GND>
+a_out[12] <= <GND>
+a_out[13] <= <GND>
+a_out[14] <= <GND>
+a_out[15] <= <GND>
+
+

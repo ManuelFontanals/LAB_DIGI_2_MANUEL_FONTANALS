@@ -1,0 +1,130 @@
+- Fontanals Manuel -
+
+ 1)  
+	●una PAL está diseñada para ecuaciones en forma de SOP mientras que una GAL está diseñada para POS.
+		- Falso: Ambas son SOP.
+				
+	● una GAL tiene una matriz AND y una OR, ambas reprogramables.
+		- Falso: Las AND conectan a OR fijas.
+
+	● una GAL puede implementar expresiones más complicadas, porque tiene mayor cantidad de términos producto que 		cualquier PAL.
+		- Verdadero.
+
+	● usa tecnología EECMOS, de modo que es reprogramable.
+		- Verdadero.
+ 
+ 2) Conteste V o F:
+
+	● Los ASICs poseen arquitecturas con conexiones fijas.
+		- Falso.
+
+	● Un ASICs Full Custom está pensado para el desarrollo de un diseño en particular a gran escala.
+		- Verdadero.
+
+	● Un ASICs Full Custom se utiliza para el diseño de prototipos.
+		- Falso.
+
+	● Los Microprocesadores poseen arquitecturas fijas que no pueden reconfigurarse.
+		- Verdadero.
+
+	● Un ASICs Full Custom es un circuito prediseñado en el cual el usuario establece las conexiones.
+		- Falso.	
+		
+	● Las FPGA son configuradas por el usuario.
+		- Verdadero.
+
+	● Las FPGA son muy utilizadas para pruebas y desarrollo de prototipos.
+		- Verdadero.
+
+	● El consumo de potencia es mucho menor en las FPGA que en los circuitos Full-Custom.
+		- Falso.	
+
+	● Un microcontrolador (con las mismas características) implementado dentro de una FPGA es más rápido que un 		microcontrolador dedicado.
+		- Falso.
+
+ 3) 	VER ARCHIVO TESTParteB
+
+ 4) 
+    a) Es un MUX, donde "a" "b" y "c" son palabras de 4 bits, "sel" es el selector de 2 bits de que palabra elegir como out y "salida" toma el valor de la salida seleccionada.
+	
+	Para "sel" = 00 , "salida" toma el valor 0 0 0 0
+	Para "sel" = 01 , "salida" toma el valor de a
+	Para "sel" = 10 , "salida" toma el valor de b
+	Para "sel" = 11 , "salida" toma el valor de c
+    
+    b) Es un buffer, cuando "op" es 1 la salida es "entrada" y cuando "op" es 0 la salida es alta impedancia.
+
+ 5) Los tipos de elementos programables son: 
+		conexiones: internas entre componentes de la FPGA,
+		lógica combinacional: lo dice el nombre, son los combinacionales (AND, OR, XOR, otros) que contiene la FPGA,
+		IN-OUT's: las entradas y salidas y la posicion de sus puertos en la FPGA.
+
+    Los componentes básicos son MUX, registros, lógica combinacional, Full Adders.
+
+ 6) El lenguaje es en VHDL, este no sigue un orden o secuencia, las conexiones se realizan en "paralelo", todas a la vez.
+
+ 7) Se tienen 3 entradas y 8 salidas, es un decodificador de 3 bits.
+ 
+ 8) - Es un buscador de la palabra "valor" de 8 bits; se busca de entre 100 registros de 8 bits. Al encontrarla, "encontrado" toma el valor de 1, si no encuentra la palabra entre las 100, "encontrado" queda en 0.
+    - Este circuito es combinacional, no tiene entrada de clock.
+    - La frecuencia máxima será la inversa de lo que se tarde en comparar un único registro con la palabra ingresada + una compuerta OR de 100 entradas (o las OR que necesite concatenar) , los registros son comparados todos a la vez. 
+    - La memoria RAM deberá ser de (8 bit * 100reg = 800 bits = 100 bytes).
+
+	Esquema: (si no se ve bien expandir cuadro)
+	
+			---------------------------------------------------------------------------------------------------------
+			|													|
+			|													|
+		  /	|					-----------------						|	
+	  8 bits /  	|					|		|						|
+  valor --------/--------------------------------------------->	|   Comparador	|-------------|					|
+	       /	|		|			|		|	      |					|
+	      / 	|		|			-----------------	      |					|
+			|		|				A		      |					|
+			|		|	-----------------	|		      |					|
+			|		|	|  registro 8	|--------		      |					|
+			|		|	-----------------			      |					|
+			|		|						      |					|
+			|		|			-----------------	      |					|
+	    		|		|			|		|	      |					|
+			|		---------------------->	|   Comparador	|-------------|      ---------------		|
+	  		|		|			|		|	      |	      \		    \		|
+			|		|			-----------------	      |	       \	     \		|
+			|		|				A		      |-------- \     OR      \	---------------> encontrado 
+			|		|	-----------------	|		      |		/	      /       	|
+			|		|	|  registro 8	|--------		      |	       /             /		|
+			|		|	-----------------			      |	      /		    /		|
+			|		|						      |	     ---------------		|
+			|		.				.		      .					|
+			|		.				.		      .					|
+			|		.				.		      .					|
+			|		.				.		      .					|
+			|		|						      |					|
+			|		|			-----------------	      |					|
+		    	|		|			|		|	      |					|
+			|		---------------------->	|   Comparador	|-------------|					|
+		  	|		|			|		|	      |					|
+			|		|			-----------------	      |					|
+			|		|				A		      |					|
+			|		|	-----------------	|		      |					|
+			|		|	|  registro 8	|--------		      |					|
+			|		|	-----------------			      |					|
+			|		|						      |					|			
+			|		|			-----------------	      |					|
+		     	|		|			|		|	      |		    			|
+			|		---------------------->	|   Comparador	|-------------|					|
+		 	|					|		|						|
+			|					-----------------						|
+			|						A							|
+			|			-----------------	|							|
+			|			|  registro 8	|--------							|
+			|			-----------------								|
+			|													|
+			|													|
+			|													|
+			---------------------------------------------------------------------------------------------------------
+
+
+	
+
+

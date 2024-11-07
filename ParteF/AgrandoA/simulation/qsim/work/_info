@@ -1,0 +1,85 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\Manu\Desktop\facu\T y DD II\LAB\ParteF\AgrandoA\simulation\qsim
+vAgrandoA
+Z1 !s100 jVI@W0UR;7GAJciY<B1Cd0
+Z2 Izdg125bkJlzOFo]HQd1Z:1
+Z3 Va4SGk`LPP:@bU81oD[eD63
+Z4 dC:\Users\Manu\Desktop\facu\T y DD II\LAB\ParteF\AgrandoA\simulation\qsim
+Z5 w1730944832
+Z6 8AgrandoA.vo
+Z7 FAgrandoA.vo
+L0 31
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s108 1730944833.656000
+Z10 !s90 -work|work|AgrandoA.vo|
+Z11 o-work work -O0
+Z12 n@agrando@a
+!i10b 1
+!s85 0
+Z13 !s107 AgrandoA.vo|
+!s101 -O0
+vAgrandoA_vlg_check_tst
+!i10b 1
+!s100 L^WLLSg1h]eGW=MF]8]_W2
+IAE=Jo?[hVEG^dm]DPGcmP0
+VN`1Y<Z`_KQ4Of[8LN8O9T3
+R4
+Z14 w1730944831
+Z15 8AgrandoA.vt
+Z16 FAgrandoA.vt
+L0 57
+R8
+r1
+!s85 0
+31
+Z17 !s108 1730944834.769000
+Z18 !s107 AgrandoA.vt|
+Z19 !s90 -work|work|AgrandoA.vt|
+!s101 -O0
+R11
+n@agrando@a_vlg_check_tst
+vAgrandoA_vlg_sample_tst
+!i10b 1
+!s100 [>fQ[=6D2azn6cH`fRdH90
+IzbM<Ima:?QI_g:HTBIH[@0
+V;lO6@5j;jfBHzC9B;X@8<0
+R4
+R14
+R15
+R16
+L0 29
+R8
+r1
+!s85 0
+31
+R17
+R18
+R19
+!s101 -O0
+R11
+n@agrando@a_vlg_sample_tst
+vAgrandoA_vlg_vec_tst
+!i10b 1
+!s100 imOQmT9]fnW6:e`SV7Xld1
+IaISMLjT5:L=A9NMOUf_h61
+V:mFAONPWeQYB0PmaCnGH41
+R4
+R14
+R15
+R16
+L0 421
+R8
+r1
+!s85 0
+31
+R17
+R18
+R19
+!s101 -O0
+R11
+n@agrando@a_vlg_vec_tst
